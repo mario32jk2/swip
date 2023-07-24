@@ -551,8 +551,18 @@ h2 {
     .container-imgeness {
         margin: 0 16px
     }
+    
 }
-
+@media  screen and (max-width: 1029px) {
+    .container-sub {
+        width: 100%;
+        max-width: 1144px;
+        padding: 0 16px;
+    }
+    .container-de-imagnes {
+        padding: 0 16px;
+    }
+}
 @media screen and (max-width: 550px) {
     .container-two-colum-seccion2 {
         display: flex;
@@ -560,6 +570,7 @@ h2 {
         align-items: center;
         width: 100%;
     }
+
 
     .container-sub {
         width: 100%;
@@ -592,6 +603,11 @@ h2 {
 
     .boton-seccion2 {
         margin-left: 13px;
+    }
+    .container-sub {
+        width: 100%;
+        max-width: 1144px;
+        padding: 0 16px;
     }
 }
 
@@ -872,5 +888,89 @@ h2 {
 
     .button-explore-partners {
         margin: 10px 0;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .two-colum {
+        padding: 64px 16px;
+
+    }
+}/*PARTE CUATRO*/
+.parte-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.container-parrofos-titulos {
+    width: 100%;
+    max-width: 1144px;
+}
+
+.title-p {
+    color: #6962f7;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.container-parrafos-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+}
+
+.conjunto-titles {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    width: 100%;
+}
+
+.conjunto-parrafo {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    margin: 16px 0;
+}
+
+@media only screen and (max-width: 320px) {
+    .container-parrafos-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .container-parrofos-titulos {
+        width: 100%;
+        margin: 0 16px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container-parrafos-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .container-parrofos-titulos {
+        width: 100%;
+        margin: 0 16px;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .container-parrofos-titulos {
+        padding: 0 16px;
     }
 }
