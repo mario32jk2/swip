@@ -1357,7 +1357,7 @@ h2 {
     }
 
 }
-@media screen and (max-width: 1029px){
+@media screen and (min-width: 1029px){
     .parte-6-two-columna {
         display: flex;
         width: 90%;
