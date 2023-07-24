@@ -431,3 +431,260 @@ h1 {
         justify-content: center;
     }
 }
+/*<!--SEGUNDA PARTE-->*/
+.container-seccion-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f7f9fc;
+    padding: 64px 0;
+}
+
+.container-sub {
+    width: 100%;
+    max-width: 1144px;
+}
+
+p {
+    margin: 16px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.p-morado {
+    color: #6962f7;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.h2-seccion-2 {
+    width: 50%;
+    margin-bottom: 16px;
+}
+
+.container-two-colum-seccion2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.colum-p-izquierdo {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.colum-p-derecho {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.color-link {
+    color: #6962f7;
+    text-decoration: none;
+}
+
+.boton-seccion2 {
+    background-color: #6962f7;
+}
+
+@media screen and (max-width: 320px) {
+    .container-two-colum-seccion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-sub {
+        width: 100%;
+        max-width: 1144px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .colum-p-izquierdo {
+        width: 100%;
+        padding: 0 0 0 16px;
+    }
+
+    .colum-p-derecho {
+        width: 100%;
+    }
+
+    .p-morado {
+        margin: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .h2-seccion-2 {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 38px;
+        margin: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .container-imgeness {
+        margin: 0 16px
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-two-colum-seccion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-sub {
+        width: 100%;
+        max-width: 1144px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .colum-p-izquierdo {
+        width: 100%;
+        padding: 0 0 0 16px;
+    }
+
+    .colum-p-derecho {
+        width: 100%;
+    }
+
+    .p-morado {
+        margin: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .h2-seccion-2 {
+        width: 90%;
+        margin-bottom: 16px;
+        margin: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .boton-seccion2 {
+        margin-left: 13px;
+    }
+}
+
+
+.gid-imagenes {
+    background-color: #f7f9fc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-de-imagnes {
+    width: 100%;
+    max-width: 1144px;
+}
+
+.container-imgeness {
+    display: grid;
+    grid-template-areas:
+        "card slack slack"
+        "phone slack slack"
+        "phone dash dash";
+    padding: 32px 0px;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+#tcredito-tarjeta {
+    grid-area: card;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#slack-tarjeta {
+    grid-area: slack;
+    width: 100%;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+#phone-tarjeta {
+    grid-area: phone;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#dash-tarjeta {
+    grid-area: dash;
+    width: 100%;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 320px){
+    .container-imgeness {
+        display: grid;
+        grid-template-areas:
+            "card"
+            "phone"
+            "phone"
+            "slack"
+            "slack"
+            "dash"
+            "dash";
+        padding: 32px 0px;
+        row-gap: 32px;
+        column-gap: 32px;
+    }
+    
+    #tcredito-tarjeta {
+        grid-area: card;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    #slack-tarjeta {
+        grid-area: slack;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+    
+    #phone-tarjeta {
+        grid-area: phone;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    #dash-tarjeta {
+        grid-area: dash;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+}
