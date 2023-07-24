@@ -974,3 +974,139 @@ h2 {
         padding: 0 16px;
     }
 }
+/*Parte 5*/
+.parte-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+    background-color: #0a2540;
+    width: 100%;
+    position: relative;
+    padding: 64px 0 94px 0;
+
+}
+
+.container-parte-5 {
+    width: 100%;
+    max-width: 1144px;
+}
+
+.two-columna {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.title-parrafo-h2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.col-r {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.imagen-mundo {
+    max-width: 750px;
+    opacity: 25%;
+    position: absolute;
+    top: 10%;
+}
+
+.a-link {
+    color: #00d4ff;
+}
+
+.container-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+}
+
+.p-3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0 63px 0;
+    line-height: 26px;
+}
+
+.sub3 {
+    border-left: 2px solid #00d4ff;
+    line-height: 30px;
+    padding: 0 0 0 8px;
+}
+
+.p-h3 {
+    margin: 15px 5px 5px 0px;
+}
+
+@media only screen and (max-width: 320px) {
+    .col-r {
+        display: none;
+    }
+
+    .title-parrafo-h2 {
+        width: 100%;
+
+    }
+
+    .container-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .container-parte-5 {
+        width: 100%;
+        margin: 0 16px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .col-r {
+        display: none;
+    }
+
+    .title-parrafo-h2 {
+        width: 100%;
+
+    }
+
+    .container-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .container-parte-5 {
+        width: 100%;
+        margin: 0 16px;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .imagen-mundo {
+        max-width: 490px;
+        opacity: 25%;
+        position: absolute;
+        top: 20%;
+    }
+}
