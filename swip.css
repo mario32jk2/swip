@@ -393,7 +393,7 @@ h1 {
     }
 }
 
-@media (min-width: 750px) and (max-width: 780px) {
+@media (min-width: 750px) and (max-width: 1030px) {
 
     h1 {
         font-weight: 600;
@@ -420,5 +420,14 @@ h1 {
     [class*="logos-img"] {
         width: 100%;
         height: auto;
+    }
+    .container-colum-derecho {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 0 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
